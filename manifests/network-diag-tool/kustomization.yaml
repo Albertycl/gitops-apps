@@ -2,11 +2,19 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: network-diag
 resources:
-  - namespace.yaml
-  - mariadb.yaml
-  - apps.yaml
+- namespace.yaml
+- mariadb.yaml
+- apps.yaml
 images:
-  - { name: ghcr.io/albertycl/network-diag-tool-admin-backend,  newTag: latest }
-  - { name: ghcr.io/albertycl/network-diag-tool-admin-frontend, newTag: latest }
-  - { name: ghcr.io/albertycl/network-diag-tool-user-backend,   newTag: latest }
-  - { name: ghcr.io/albertycl/network-diag-tool-user-frontend,  newTag: latest }
+- name: ghcr.io/albertycl/network-diag-tool-admin-backend
+  newName: ghcr.io/albertycl/network-diag-tool-admin-backend
+  newTag: fc7cd3815961aae45e0abbcfe16079b58729ca38
+- name: ghcr.io/albertycl/network-diag-tool-admin-frontend
+  newName: ghcr.io/albertycl/network-diag-tool-admin-frontend
+  newTag: fc7cd3815961aae45e0abbcfe16079b58729ca38
+- name: ghcr.io/albertycl/network-diag-tool-user-backend
+  newName: ghcr.io/albertycl/network-diag-tool-user-backend
+  newTag: fc7cd3815961aae45e0abbcfe16079b58729ca38
+- name: ghcr.io/albertycl/network-diag-tool-user-frontend
+  newName: ghcr.io/albertycl/network-diag-tool-user-frontend
+  newTag: fc7cd3815961aae45e0abbcfe16079b58729ca38
