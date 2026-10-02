@@ -5,6 +5,7 @@ resources:
 - namespace.yaml
 - mariadb.yaml
 - apps.yaml
+- ingress.yaml
 images:
 - name: ghcr.io/albertycl/network-diag-tool-admin-backend
   newName: ghcr.io/albertycl/network-diag-tool-admin-backend
