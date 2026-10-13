@@ -32,7 +32,8 @@ spec:
     services:
     - name: admin-frontend
       port: 80
-  tls: {}
+  tls:
+    secretName: netdiag-tls
 ---
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
@@ -54,7 +55,8 @@ spec:
     services:
     - name: user-frontend
       port: 80
-  tls: {}
+  tls:
+    secretName: netdiag-tls
 ---
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
