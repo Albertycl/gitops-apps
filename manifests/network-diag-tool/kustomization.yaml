@@ -6,6 +6,7 @@ resources:
 - mariadb.yaml
 - apps.yaml
 - ingress.yaml
+- certificate.yaml
 - monitoring.yaml
 images:
 - name: ghcr.io/albertycl/network-diag-tool-admin-backend
