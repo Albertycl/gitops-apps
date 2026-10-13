@@ -19,7 +19,8 @@ spec:
     services:
     - name: frontend
       port: 80
-  tls: {}
+  tls:
+    secretName: outage-tls
 ---
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute

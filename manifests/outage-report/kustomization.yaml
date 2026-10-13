@@ -6,6 +6,7 @@ resources:
 - mariadb.yaml
 - app.yaml
 - ingress.yaml
+- certificate.yaml
 images:
 - name: ghcr.io/albertycl/outage-report-backend
   newName: ghcr.io/albertycl/outage-report-backend
