@@ -9,7 +9,7 @@ resources:
 images:
 - name: ghcr.io/albertycl/outage-report-backend
   newName: ghcr.io/albertycl/outage-report-backend
-  newTag: latest
+  newTag: 0dd1064c229b4fbcb89b77475c56ceec015aa038
 - name: ghcr.io/albertycl/outage-report-frontend
   newName: ghcr.io/albertycl/outage-report-frontend
-  newTag: latest
+  newTag: 0dd1064c229b4fbcb89b77475c56ceec015aa038
