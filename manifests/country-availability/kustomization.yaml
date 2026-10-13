@@ -8,7 +8,7 @@ resources:
 images:
 - name: ghcr.io/albertycl/country-availability-backend
   newName: ghcr.io/albertycl/country-availability-backend
-  newTag: latest
+  newTag: 14d89be347050c60036d4f3b324c5ec0049d13ea
 - name: ghcr.io/albertycl/country-availability-frontend
   newName: ghcr.io/albertycl/country-availability-frontend
-  newTag: latest
+  newTag: 14d89be347050c60036d4f3b324c5ec0049d13ea
