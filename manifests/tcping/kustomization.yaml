@@ -8,15 +8,15 @@ resources:
 - ingress.yaml
 - certificate.yaml
 configMapGenerator:
-- name: tcping-seed
-  files:
+- files:
   - seed.sql
+  name: tcping-seed
 generatorOptions:
   disableNameSuffixHash: true
 images:
 - name: ghcr.io/albertycl/tcping-backend
   newName: ghcr.io/albertycl/tcping-backend
-  newTag: latest
+  newTag: 5251aa0ad31229c896d963528360e40bc26a0131
 - name: ghcr.io/albertycl/tcping-frontend
   newName: ghcr.io/albertycl/tcping-frontend
-  newTag: latest
+  newTag: 5251aa0ad31229c896d963528360e40bc26a0131
