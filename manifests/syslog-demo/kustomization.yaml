@@ -10,7 +10,7 @@ resources:
 images:
 - name: ghcr.io/albertycl/syslog-demo-backend
   newName: ghcr.io/albertycl/syslog-demo-backend
-  newTag: 50605496ca405237ac36cd34d4cc8c2a19342a07
+  newTag: a61e650460ed4a2af23109a14d469dbb124036d1
 - name: ghcr.io/albertycl/syslog-demo-frontend
   newName: ghcr.io/albertycl/syslog-demo-frontend
-  newTag: 50605496ca405237ac36cd34d4cc8c2a19342a07
+  newTag: a61e650460ed4a2af23109a14d469dbb124036d1
