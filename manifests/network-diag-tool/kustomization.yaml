@@ -11,13 +11,13 @@ resources:
 images:
 - name: ghcr.io/albertycl/network-diag-tool-admin-backend
   newName: ghcr.io/albertycl/network-diag-tool-admin-backend
-  newTag: fd0ff16ccb54cdd2901130c6d7bbad6ae4e1d8be
+  newTag: f090c4f3f1475b0b7534c18edbcbb09cab51e948
 - name: ghcr.io/albertycl/network-diag-tool-admin-frontend
   newName: ghcr.io/albertycl/network-diag-tool-admin-frontend
-  newTag: fd0ff16ccb54cdd2901130c6d7bbad6ae4e1d8be
+  newTag: f090c4f3f1475b0b7534c18edbcbb09cab51e948
 - name: ghcr.io/albertycl/network-diag-tool-user-backend
   newName: ghcr.io/albertycl/network-diag-tool-user-backend
-  newTag: fd0ff16ccb54cdd2901130c6d7bbad6ae4e1d8be
+  newTag: f090c4f3f1475b0b7534c18edbcbb09cab51e948
 - name: ghcr.io/albertycl/network-diag-tool-user-frontend
   newName: ghcr.io/albertycl/network-diag-tool-user-frontend
-  newTag: fd0ff16ccb54cdd2901130c6d7bbad6ae4e1d8be
+  newTag: f090c4f3f1475b0b7534c18edbcbb09cab51e948
