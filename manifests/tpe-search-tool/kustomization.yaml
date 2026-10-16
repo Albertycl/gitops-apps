@@ -11,7 +11,7 @@ resources:
 images:
 - name: ghcr.io/albertycl/tpe-search-tool-backend
   newName: ghcr.io/albertycl/tpe-search-tool-backend
-  newTag: 027a08751f3cbb502edd0e88c5d1fca341b6f764
+  newTag: dbaf43ae57ce4e8e2a6756a3afb179c6c4cbbcdd
 - name: ghcr.io/albertycl/tpe-search-tool-frontend
   newName: ghcr.io/albertycl/tpe-search-tool-frontend
-  newTag: 027a08751f3cbb502edd0e88c5d1fca341b6f764
+  newTag: dbaf43ae57ce4e8e2a6756a3afb179c6c4cbbcdd
