@@ -8,3 +8,10 @@ resources:
 - app.yaml
 - ingress.yaml
 - certificate.yaml
+images:
+- name: ghcr.io/albertycl/tpe-search-tool-backend
+  newName: ghcr.io/albertycl/tpe-search-tool-backend
+  newTag: 16e043408facc92e21cacdb5d2f2947e12f0997e
+- name: ghcr.io/albertycl/tpe-search-tool-frontend
+  newName: ghcr.io/albertycl/tpe-search-tool-frontend
+  newTag: 16e043408facc92e21cacdb5d2f2947e12f0997e
