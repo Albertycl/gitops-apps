@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: tpe-search-tool
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Albertycl/gitops-apps.git
+    targetRevision: main
+    path: manifests/tpe-search-tool
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: tpe-search-tool
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

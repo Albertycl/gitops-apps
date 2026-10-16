@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: tpe-search-tool
+resources:
+- namespace.yaml
+- initdb-configmap.yaml
+- mariadb.yaml
+- app.yaml
+- ingress.yaml
+- certificate.yaml
